@@ -51,7 +51,7 @@ userRoutes.get('/', async (req: any, res: Response)=>{
     res.json({
         ok: true,
         users: users 
-    }) 
+    });
 })
 
 userRoutes.post('/create', (req: Request, res: Response)=>{    
